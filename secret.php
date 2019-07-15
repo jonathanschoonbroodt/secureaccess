@@ -12,16 +12,20 @@
 	<?php 
 
 	// si le formulaire n'est pas vide et que le mot de passe est correct
-	if (isset($_POST['password']) AND $_POST ['password']=='Kangourou') {
-	
+	if (isset($_POST['password']) AND $_POST ['password'] == 'Kangourou') {
 	//on renvoie vers les données 
 	 echo '<h1>Données confidentielles :</h1>' . '<a href=https://www.nsa.gov/news-features/declassified-documents/ufo/>Cliquez-ici</a> pour accéder aux données' ;
 		 }
 		 // sinon on refuse l'accès
 		 else {
-		 	echo 'Accès refusé';
+		 	echo 
+		 	'<body class="text-center">
+				<img src="logo-nsa.png" class="logo">
+				<h1>Secure Access</h1>
+				<p>Incorrect password, access denied. Please, <a href="formulaire.php">retry</a>.</p>	
+			</body>
+			</html>';
 		 }
-
 	 ?>
 
 	 </body>

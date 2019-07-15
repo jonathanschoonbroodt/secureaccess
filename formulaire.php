@@ -9,20 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Stylesheet CSS -->
+    <link href="css/custom.css" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.png" />
 </head>
-<style type="text/css">
-	body {
-		font-family: 'Press Start 2P', cursive;
-		background-color: black;
-		color: white;
-	}
-	.logo {
-		max-width: 300px;
-		margin-top: 5%;
-		margin-bottom: 5%;
-	}
-</style>
 <body class="text-center">
 	<img src="logo-nsa.png" class="logo">
 	<h1>Secure Access</h1>
@@ -32,3 +22,4 @@
 		<input type="submit" value="Access"/>
 	</form>
 </body>
+</html>
