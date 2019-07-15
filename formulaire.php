@@ -5,16 +5,30 @@
 	<title>NASA | Accéder à des données confidentielles</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 8 BIT look a like font -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.png" />
 </head>
-<body>
-
-<h1>Accès sécurisé</h1>
-	<h2>Insérez votre mot de passe pour accéder aux données confidentielles</h2>
-		
-		<form method="post" action="secret.php">
-			<label for="mdp"><input name="mdp" type="password" placeholder="Insérez le mot de passe"/></label>
-			<input type="submit" value="Accéder aux données sécurisées"/>
-		</form>
-
+<style type="text/css">
+	body {
+		font-family: 'Press Start 2P', cursive;
+		background-color: black;
+		color: white;
+	}
+	.logo {
+		max-width: 300px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+</style>
+<body class="text-center">
+	<img src="logo-nsa.png" class="logo">
+	<h1>Secure Access</h1>
+	<p>Insert password for access</p>	
+	<form method="post" action="secret.php">
+		<label for="password"><input name="password" type="password" placeholder="password"/></label>
+		<input type="submit" value="Access"/>
+	</form>
 </body>
