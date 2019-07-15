@@ -36,7 +36,8 @@
 	 	'<body class="text-center">
 			<img src="logo-nsa.png" class="logo">
 			<h1>Secure Access</h1>
-			<p>Incorrect password, access denied. Please, <a href="formulaire.php">retry</a>.</p>	
+			<p>Incorrect password, access denied.</p>
+			<p><a href="formulaire.php">Retry</a></p>	
 		</body>
 		</html>';
 	 }
